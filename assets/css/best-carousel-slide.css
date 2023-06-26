@@ -21,7 +21,6 @@ div.jumbotron.hero-technology {
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
-  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
   color: #fff;
 }
 
@@ -47,8 +46,8 @@ p.hero-subtitle {
 }
 
 .btn.btn-primary {
-  background-color: #048f83!important;
-  border-color: #048f83!important;
+  background-color: rgba(102,16,229,0.79)!important;
+  border-color: rgba(102,16,229,0.79)!important;
 }
 
 .btn-primary.focus, .btn-primary:focus {
