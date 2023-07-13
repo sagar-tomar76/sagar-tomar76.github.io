@@ -1,34 +1,33 @@
 div.jumbotron.carousel-hero {
-  color: #fff;
+  height: 360px;
+  color: #2c3134;
   text-align: center;
   background-size: cover;
   background-position: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-bottom: 0;
 }
 
-div.jumbotron.hero-nature {
+div.jumbotron.addon1 {
   background-image: url('../../assets/img/projects/pop-drops/featured_1-520x245.png');
 }
 
-div.jumbotron.hero-photography {
+div.jumbotron.addon2 {
   background-image: url('../../assets/img/projects/starbridge/featured_1-520x245.png');
 }
 
-div.jumbotron.hero-technology {
+div.jumbotron.addon3 {
   background-image: url('../../assets/img/projects/starbot/starbot_featured.png');
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
-  color: #fff;
+  color: #6610f2;
 }
 
 p.hero-subtitle {
+  background-color: rgba(0,0,0,0.3);
   max-width: 600px;
   margin: 25px auto;
   padding: 10px 15px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .plat {
@@ -54,24 +53,12 @@ p.hero-subtitle {
   box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
 }
 
-* {
-  /*box-sizing: inherit;*/
-}
-
-*:before, *:after {
-  /*box-sizing: inherit;*/
-}
-
 span {
   font-style: inherit;
   font-weight: inherit;
 }
 
-.zoom {
-  transition: .2s;
-}
-
-.zoom:hover {
-  transform: scale(1.2);
+.carousel-inner {
+  width: 100%;
 }
 
