@@ -44,6 +44,45 @@ a {
   color: rgba(0,0,0,0);
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border-radius: 5px;
+  background-color: rgb(63, 68, 72);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+td, th {
+  color: #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #dddddd;
+}
+
+td:nth-child(even), th:nth-child(even) {
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+
+.content-div {
+  color: rgb(47,53,58);
+  background: #2f353a;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(147,156,163);
+}
+
 .nav-item:hover {
   border-style: solid;
   border-width: 2px;
