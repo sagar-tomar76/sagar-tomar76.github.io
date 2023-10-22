@@ -51,6 +51,11 @@ a {
   background-color: #2f353a;
 }
 
+.nav-item-active {
+  border-bottom-style: solid;
+  border-bottom-color: #ffffff;
+}
+
 .nav-link {
   color: rgba(224,217,217,0.9)!important;
   margin-top: -10px;
