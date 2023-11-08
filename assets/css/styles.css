@@ -44,6 +44,12 @@ a {
   color: rgba(0,0,0,0);
 }
 
+body {
+  margin-top: -26px;
+  opacity: 1;
+  background: rgb(35,39,42);
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
