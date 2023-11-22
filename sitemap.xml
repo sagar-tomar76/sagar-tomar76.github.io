@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://starstudios.tech/</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/about</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons/popdrops</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons/starbridge</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons/starbot</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons/debug-screen</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons/vis-sus-sand-gravel</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons/banner-markers</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons/chest-peek</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons/item-durability-viewer</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://starstudios.tech/addons/alternate-portals</loc>
+  <lastmod>2023-11-21T05:52:49+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

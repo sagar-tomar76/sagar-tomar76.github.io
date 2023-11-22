@@ -1,1 +1,1 @@
-Sitemap: https://starstudios.tech/sitemap.txt
+Sitemap: https://starstudios.tech/sitemap.xml
