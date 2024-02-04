@@ -72,9 +72,17 @@ tr:not(:last-child) {
   border-bottom: 1px solid #dddddd;
 }
 
-td:nth-child(even), th:nth-child(even) {
+td, th {
   border-left: 1px solid #dddddd;
   border-right: 1px solid #dddddd;
+}
+
+td:last-child, th:last-child {
+  border-right: none;
+}
+
+td:first-child, th:first-child {
+  border-left: none;
 }
 
 .content-div {

@@ -1,0 +1,33 @@
+:root {
+    --top-margin: 50px;
+    --dark-blue: #6610f2;
+    --body-background: #1e1e1e;
+    --overlay: #333333;
+    --overlay2: #484848;
+    --overlay3: #565555;
+    --text: #e0d9d9;
+    --text2: #c7c5c5;
+}
+
+body {
+    background-color: var(--body-background);
+    font-family: "Alatsi", sans-serif;
+}
+
+input[type=file] {
+    color: var(--text);
+}
+
+input[type=submit] {
+    background-color: var(--dark-blue);
+    color: var(--text);
+    border: none;
+}
+
+.content-div {
+    width: 90%;
+    margin: auto;
+    background-color: var(--overlay2);
+    margin-top: calc(var(--top-margin) + 20px);
+    margin-bottom: 20px;
+}

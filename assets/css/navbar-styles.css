@@ -1,0 +1,68 @@
+nav {
+    background-color: var(--overlay);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: calc(50% - 160px);
+    float: none;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li > a {
+    display: block;
+    width: 80px;
+    line-height: 50px;
+    text-decoration: none;
+    color: var(--text);
+    text-align: center;
+}
+
+.active-nav-item {
+    border-bottom: 4px solid var(--dark-blue)!important;
+}
+
+nav > a {
+    line-height: 50px;
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: calc(50% - 75px);
+}
+
+/* all the thigs that only happen in relatively bigger screens */
+@media screen and (min-width: 901px) {
+    nav > ul > li > a:hover {
+        background-color: var(--overlay2);
+        border-bottom: 4px solid var(--overlay3);
+    }
+    
+    nav {
+        height: 54px;
+    }
+}
+
+/* all the things that only happen on tablets */
+@media screen and (max-width: 900px) and (min-width: 481px){
+    nav > a {
+        margin-left: 4px;
+    }
+}
+
+/* all things that happen on non mobile devices */
+@media screen and (min-width: 481px) {
+    nav > ul {
+        margin-left: 0;
+        float: right;
+    }
+}
